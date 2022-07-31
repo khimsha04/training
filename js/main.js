@@ -11,7 +11,7 @@ const clickAudio = new Audio(
 const wrongClickAudio = new Audio(
   "https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-77317/zapsplat_multimedia_button_click_fast_short_004_79288.mp3"
 );
-// const wrong = document.getElementById("wrong");
+
 
 for (let i = 0; i < board.length; i++) {
   for (let j = 0; j < board[i].length; j++) {
