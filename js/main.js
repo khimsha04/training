@@ -56,7 +56,7 @@ function moveTo(element, i, j) {
 
     checkIfFinished();
 
-    clickAudio.play();
+    wrongClickAudio.play();
 }
 
 function checkIfFinished() {
