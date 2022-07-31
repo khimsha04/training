@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    position: relative;
+    margin: 30px auto;
+    border: 1px solid #000;
+    width: 502px;
+    height: 502px;
+}
+
+#board div {
+    width: 125px;
+    height: 125px;
+    border: 1px solid #000;
+    font-size: 30px;
+    text-align: center;
+    line-height: 125px;
+    background: #4ca763;
+
+    position: absolute;
+    transition: all .3s;
+}
+
+#won {
+    text-align: center;
+}
+.color{
+    color: red;
+}
+
+#timer {
+    text-align: center;
+    margin:  0px;
+    font-size: 30px;
+    color:black;
+}
